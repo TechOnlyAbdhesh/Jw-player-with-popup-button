@@ -1,0 +1,40 @@
+
+.button-container {
+    margin-top: 20px;
+}
+
+.popup {
+    display: none;
+    margin-top: 50px;
+    min-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    color: white;
+    padding: 2px;
+    z-index: 1000;
+    box-shadow: 0 1px 1px 1px black;
+}
+
+.popup-content {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
+    width: 100%; padding: 1px;
+    border-radius: 5px;
+}
+
+.close-above {
+display: block;
+min-width: 90px;
+float: right;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    color: red; margin: 1px;
+    padding: 1px; border: 0.50px solid black;
+    border-radius: 5px;
+}
+.player {
+min-height: 200px;
+}
